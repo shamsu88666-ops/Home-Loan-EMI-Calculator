@@ -161,7 +161,16 @@ st.markdown("""
 
 # --- APP LAYOUT ---
 st.markdown("<h1 class='main-title'>HOME LOAN EMI CALCULATOR</h1>", unsafe_allow_html=True)
-st.markdown("<p style='text-align: center; font-size: 18px; color: #cbd5e1;'>Professional Financial Analysis & Amortization Plan</p>", unsafe_allow_html=True)
+st.markdown("<p style='text-align: center; font-size: 18px; color: #cbd5e1; margin-bottom: 5px;'>Professional Financial Analysis & Amortization Plan</p>", unsafe_allow_html=True)
+
+# Developer Info & Social Links
+st.markdown("<p style='text-align: center; color: #FFFFFF; font-weight: bold; margin-bottom: 10px;'>Developed by: Shamsudeen Abdulla</p>", unsafe_allow_html=True)
+sc1, sc2, sc3, sc4, sc5 = st.columns([1, 1, 1, 1, 1])
+with sc2:
+    st.link_button("💬 WhatsApp", "https://wa.me/qr/IOBUQDQMM2X3D1", use_container_width=True)
+with sc4:
+    st.link_button("🔵 Facebook", "https://www.facebook.com/shamsudeen.abdulla.2025/", use_container_width=True)
+
 st.write("<br>", unsafe_allow_html=True)
 
 col1, col2 = st.columns([1, 1.4], gap="large")
