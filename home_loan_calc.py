@@ -66,13 +66,17 @@ st.markdown("""
         --bg-white: #FFFFFF;
     }
     
-    /* Title Styling - Bold White */
+    /* Title Styling - Bold White with Background Color */
     .main-title {
         text-align: center;
         color: #FFFFFF !important;
+        background-color: #1A365D; /* Dark Blue matching the theme */
+        padding: 20px;
+        border-radius: 10px;
         font-weight: 800 !important;
         font-size: 42px !important;
         text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        margin-bottom: 0px;
     }
 
     /* Input Box Labels Visibility */
